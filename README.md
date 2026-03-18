@@ -1,4 +1,4 @@
-# Forest Fire Risk Monitor — Risk Engine
+# Forest Fire Risk Monitor 
 
 **Module:** `risk_scorer.py`  
 **Based on:** Van Wagner & Pickett (1985) — Canadian Forest Fire Weather Index System
