@@ -120,7 +120,7 @@ NDVI ranges from −1 (dry/bare) to +1 (dense green). This flips and rescales it
 
 ## Known Limitations
 
-- **Previous day values:** The FWI system is stateful — FFMC, DMC, and DC should carry over from the previous day. Currently the module uses fixed starting defaults (FFMC=85, DMC=6, DC=15) on every run. The database team should store and pass previous day values for accurate multi-day operation.
+- **Previous day values:** The FWI system is stateful: FFMC, DMC, and DC should carry over from the previous day. Currently the module uses fixed starting defaults (FFMC=85, DMC=6, DC=15) on every run. The database team should store and pass previous day values for accurate multi-day operation.
 - **Max temperature:** Uses daily maximum temperature, not current/live. This is correct per the FWI specification which is designed for noon standard time readings.
 - **Canadian constants:** The FWI formula constants were derived from Canadian boreal forest conditions. Directionally accurate for other regions but may slightly over/underestimate for non-boreal vegetation.
 - **NDVI source:** Must be provided by the caller from physical sensors. If unavailable, a fixed estimate (e.g. `0.4`) can be used temporarily.
