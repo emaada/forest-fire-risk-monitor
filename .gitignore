@@ -1,4 +1,4 @@
-# Environment variables - never commit this
+# Environment variables 
 .env
 
 # Python cache
