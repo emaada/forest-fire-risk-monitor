@@ -27,7 +27,7 @@ print(result)
 
 ## Data sources
 
-- **Weather:** Open-Meteo API — `temperature_2m_max`, `relative_humidity_2m_mean`, `wind_speed_10m_max`, `precipitation_sum`
+- **Weather:** Open-Meteo API: `temperature_2m_max`, `relative_humidity_2m_mean`, `wind_speed_10m_max`, `precipitation_sum`
 - **Vegetation:** NDVI from physical IoT sensor
 
 ## Reference
